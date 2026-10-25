@@ -14,8 +14,8 @@ Both were extracted from a production sales-intelligence pipeline I led for six 
 ## Background
 
 - Lead engineer and founder at Revint (2026): LLM pipeline that researched local businesses and produced a sales decision per lead, with a three-lens human review room to measure it. Discontinued in October 2026.
-- Solo engineer at Sekersoft (2024 to 2026): a multi-tenant clinic ERP (NestJS, PostgreSQL, field-level encryption, transactional outbox) and an offline-first logistics desktop app (Electron, SQLite), both still in daily use.
-- Dissertation (2026 to 2027): independent evaluation of coding-agent add-ons, separating what the model does from what the harness does.
+- Solo engineer at Sekersoft (2024 to 2026): built `sekersoft-erp-core`, a multi-tenant ERP engine (NestJS, PostgreSQL, tenant isolation, TOTP 2FA, field-level encryption, 60+ granular permissions, transactional outbox). Every ERP I shipped to clients runs on top of it. Also an offline-first logistics desktop app (Electron, SQLite). All still in daily use.
+- Dissertation (2026 to 2027): independent evaluation of coding-agent add-ons, separating what the model does from what the harness does. Built on evalroom for the review statistics and durastep for running the experiment matrix, so the dissertation ships with both libraries.
 
 ## Stack
 

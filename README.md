@@ -1,17 +1,18 @@
 # Mert Seker
 
-I build the backend plumbing that makes LLM agents dependable: durable job pipelines, multi-tenant Postgres, idempotent workers, and the human review loops that tell you whether a prompt change actually helped.
+I build the backend plumbing that makes LLM agents dependable: durable job pipelines, multi-tenant Postgres, idempotent workers, the human review loops that tell you whether a prompt change actually helped, and the guardrails that keep coding agents out of production.
 
-Final-year BSc Artificial Intelligence at the University of Greenwich, London.
+Final-year BSc Computing (Artificial Intelligence) at the University of Greenwich, London.
 
 ## Open source
 
 | Project | What it is |
 |---|---|
+| [offlimits](https://github.com/meertseker/offlimits) | The hook that keeps your coding agent out of production. A Claude Code plugin that blocks pushes to protected branches, remote migrations, deploys and production database writes from agent sessions. |
 | [evalroom](https://github.com/meertseker/evalroom) | Human-in-the-loop quality control for LLM outputs. Multi-lens review, versioned rubrics, inter-rater agreement, golden sets and gated regression runs. No bare pass rate ever leaves. |
 | [durastep](https://github.com/meertseker/durastep) | Durable, idempotent multi-step agent pipelines on your own Postgres and Redis. Typed worker registry, DAG chains, race-safe scheduling, error taxonomy, deadlines, quotas, stuck-run recovery. |
 
-Both were extracted from a production sales-intelligence pipeline I led for six months, then rebuilt as dependency-light libraries with the domain removed.
+offlimits is the gate hook from the coordinator/worker agent setup I run on a production school-management system, made general. evalroom and durastep were extracted from a production sales-intelligence pipeline I led for six months, then rebuilt as dependency-light libraries with the domain removed.
 
 ## Systems I've built
 

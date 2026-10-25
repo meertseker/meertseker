@@ -13,7 +13,7 @@ Final-year BSc Artificial Intelligence at the University of Greenwich, London.
 
 Both were extracted from a production sales-intelligence pipeline I led for six months, then rebuilt as dependency-light libraries with the domain removed.
 
-## Systems in production
+## Systems I've built
 
 - **seker-platform** (private): the public website and the staff CRM of a kindergarten in Istanbul, in one monorepo. A parent's application on the site opens as a candidate card in the CRM, enrolments carry their instalment plans, and enrolments that came from Google Ads are uploaded back to the ad account as conversions. Next.js, Supabase Postgres with row-level security on every table, nightly database backups to S3. Built alone.
 - **[logistic-comp-order-tracking-system](https://github.com/meertseker/logistic-comp-order-tracking-system)**: offline-first desktop app that tracks orders and prices every trip for a logistics company in Istanbul: fuel, driver days, tolls and maintenance per vehicle, with cost snapshots kept per order. Electron, React and SQLite, auto-updates from GitHub Releases, Windows and macOS installers built in CI.

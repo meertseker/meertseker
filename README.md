@@ -8,7 +8,7 @@ Final-year BSc Computing (Artificial Intelligence) at the University of Greenwic
 
 | Project | What it is |
 |---|---|
-| [offlimits](https://github.com/meertseker/offlimits) | The hook that keeps your coding agent out of production. A Claude Code plugin that blocks pushes to protected branches, remote migrations, deploys and production database writes from agent sessions. |
+| [offlimits](https://github.com/meertseker/offlimits) | The hook that keeps your coding agent out of production. A Claude Code plugin that blocks pushes to protected branches, remote migrations, deploys and production database writes from agent sessions, even when they run with `--dangerously-skip-permissions`. |
 | [evalroom](https://github.com/meertseker/evalroom) | Human-in-the-loop quality control for LLM outputs. Multi-lens review, versioned rubrics, inter-rater agreement, golden sets and gated regression runs. No bare pass rate ever leaves. |
 | [durastep](https://github.com/meertseker/durastep) | Durable, idempotent multi-step agent pipelines on your own Postgres and Redis. Typed worker registry, DAG chains, race-safe scheduling, error taxonomy, deadlines, quotas, stuck-run recovery. |
 
